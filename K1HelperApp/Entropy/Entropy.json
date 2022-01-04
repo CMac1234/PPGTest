@@ -1,0 +1,69 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Label2": 8,
+    "lblNopeNopeNope": 6,
+    "MAIN": 4,
+    "NOTAUTHORIZED": 3,
+    "TEST": 7
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/04/2022 22:29:15",
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "KirbyOneTKMileageCalcs": 23,
+    "KirbyOneTKMileageCalcs\\cr271_kirbyonetkmileagecalcs_statecode": 1,
+    "KirbyOneTKMileageCalcs\\cr271_kirbyonetkmileagecalcs_statuscode": 2,
+    "KirbyOneTKMileageCalcs\\default.cds_cr271_kirbyonetkmileagecalcs_views": 17,
+    "KirbyOneTKMileageRates": 25,
+    "KirbyOneTKMileageRates\\cr271_kirbyonetkmileagerates_statecode": 5,
+    "KirbyOneTKMileageRates\\cr271_kirbyonetkmileagerates_statuscode": 6,
+    "KirbyOneTKMileageRates\\default.cds_cr271_kirbyonetkmileagerates_views": 19,
+    "KirbyOneTKOasisData": 26,
+    "KirbyOneTKOasisData\\cr271_kirbyonetkoasisdata_statecode": 8,
+    "KirbyOneTKOasisData\\cr271_kirbyonetkoasisdata_statuscode": 9,
+    "KirbyOneTKOasisData\\crd7a_cr271_kirbyonetkoasisdata_premiumflag": 7,
+    "KirbyOneTKOasisData\\default.cds_cr271_kirbyonetkoasisdata_views": 20,
+    "KirbyOneTKPayPeriods": 27,
+    "KirbyOneTKPayPeriods\\crdc3_kirbyonetkpayperiod_statecode": 11,
+    "KirbyOneTKPayPeriods\\crdc3_kirbyonetkpayperiod_statuscode": 12,
+    "KirbyOneTKPayPeriods\\crdc3_payperiodstatuschoice": 10,
+    "KirbyOneTKPayPeriods\\default.cds_crdc3_kirbyonetkpayperiod_views": 21,
+    "KirbyOneTKUserDemographics": 24,
+    "KirbyOneTKUserDemographics\\cr271_kirbyonetkuserdemographics_statecode": 3,
+    "KirbyOneTKUserDemographics\\cr271_kirbyonetkuserdemographics_statuscode": 4,
+    "KirbyOneTKUserDemographics\\default.cds_cr271_kirbyonetkuserdemographics_views": 18,
+    "KirbyOneTKUserEntries": 28,
+    "KirbyOneTKUserEntries\\cr271_kirbyonetkuserentries_statecode": 15,
+    "KirbyOneTKUserEntries\\cr271_kirbyonetkuserentries_statuscode": 16,
+    "KirbyOneTKUserEntries\\crd7a_cr271_kirbyonetkuserentries_open": 13,
+    "KirbyOneTKUserEntries\\crd7a_kirbyonetktimecode": 14,
+    "KirbyOneTKUserEntries\\default.cds_cr271_kirbyonetkuserentries_views": 22,
+    "Office365Groups": 0
+  },
+  "OrderGroupControls": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "label": 0
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Label2": 1,
+    "lblNopeNopeNope": 0,
+    "MAIN": 0,
+    "NOTAUTHORIZED": 0,
+    "TEST": 0
+  },
+  "ResourcesJsonIndices": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0195679,
+    "ControlCount": {},
+    "ErrorCount": 0
+  }
+}

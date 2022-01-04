@@ -1,0 +1,138 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr271_kirbyonetkoasisdatas",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr271_kirbyonetkoasisdata",
+    "MaxGetRowsCount": 2000,
+    "Name": "KirbyOneTKOasisData",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr271_activity_no": "ActivityNo",
+      "cr271_activity_status": "ActivityStatus",
+      "cr271_barge_name": "BargeName",
+      "cr271_barge_no": "BargeNo",
+      "cr271_date_diff": "DateDiff",
+      "cr271_employee_clock_no": "EmployeeClockNo",
+      "cr271_event_code": "TarEventCode",
+      "cr271_event_code2": "TdpEventCode",
+      "cr271_hazard_pay": "HazardPay",
+      "cr271_hours": "Hours",
+      "cr271_kirbyonetkoasisdata_AsyncOperations": "System Jobs",
+      "cr271_kirbyonetkoasisdata_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr271_kirbyonetkoasisdata_DuplicateBaseRecord": "Duplicate Records (cr271_kirbyonetkoasisdata_DuplicateBaseRecord)",
+      "cr271_kirbyonetkoasisdata_DuplicateMatchingRecord": "Duplicate Records (cr271_kirbyonetkoasisdata_DuplicateMatchingRecord)",
+      "cr271_kirbyonetkoasisdata_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr271_kirbyonetkoasisdata_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr271_kirbyonetkoasisdata_ProcessSession": "Process Sessions",
+      "cr271_kirbyonetkoasisdata_SyncErrors": "Sync Errors",
+      "cr271_kirbyonetkoasisdataid": "KirbyOneTKOasisData",
+      "cr271_location_no": "LocationNo",
+      "cr271_resource_common_name": "ResourceCommonName",
+      "cr271_tar_event_date": "TarEventDate",
+      "cr271_tdp_event_date": "TdpEventDate",
+      "cr271_tk_loc_city_st": "TkLocCitySt",
+      "cr271_tk_pay_designation": "TkPayDesignation",
+      "cr271_trip_no": "TripNumber",
+      "cr271_updated_date": "UpdatedDate",
+      "crd7a_premiumflag": "PremiumFlag",
+      "crd7a_reasoncode": "ReasonCode",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "KirbyOneTKOasisData",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "KirbyOneTKOasisData (Views)",
+    "Name": "_cr271_kirbyonetkoasisdata_views",
+    "RelatedEntityName": "KirbyOneTKOasisData",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "034d0815-e933-4f75-af58-71469af47e83": "Inactive KirbyOneTKOasisData",
+      "0ad81a09-cc22-ec11-b6e6-000d3a9c93f0": "QDP - Quick Find Active KirbyOneTKOasisData",
+      "3f3d39b3-2872-46f3-b461-0c5a09e8c350": "KirbyOneTKOasisData Advanced Find View",
+      "5aa5117e-3e32-43d1-a3c2-6eb3363fd3ad": "KirbyOneTKOasisData Associated View",
+      "6b4620ef-56ce-41db-a711-23b62e509e1c": "Active KirbyOneTKOasisData",
+      "7fdffe30-042e-ec11-b6e5-002248215dbb": "KMR-K1TK_OasisData_Filter",
+      "af0f2dfb-1d55-4924-b773-59976f4fa97c": "KirbyOneTKOasisData Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (KirbyOneTKOasisData)",
+    "Name": "cr271_kirbyonetkoasisdata_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "KirbyOneTKOasisData"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "KirbyOneTKOasisData",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (KirbyOneTKOasisData)",
+    "Name": "cr271_kirbyonetkoasisdata_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "KirbyOneTKOasisData"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "KirbyOneTKOasisData",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "PremiumFlag (KirbyOneTKOasisData)",
+    "Name": "crd7a_cr271_kirbyonetkoasisdata_premiumflag",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd7a_premiumflag",
+        "OptionSetReferenceEntityName": "KirbyOneTKOasisData"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crd7a_premiumflag",
+    "RelatedEntityName": "KirbyOneTKOasisData",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,5 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: =
+    StartScreen: =If(User().Email in Office365Groups.ListGroupMembers("332d9854-ca7a-40b5-b11b-2def20f93663").value.mail ,TEST,NOTAUTHORIZED)
+

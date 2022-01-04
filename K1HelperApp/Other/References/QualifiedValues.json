@@ -1,0 +1,46 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr271_kirbyonetkmileagecalcs_forms",
+      "Namespace": "KirbyOneTKMileageCalcs (Forms)",
+      "Values": {
+        "Information": "b5519515-fc19-4779-b4af-e809a9170c90"
+      }
+    },
+    {
+      "Kind": "default.cds_cr271_kirbyonetkuserdemographics_forms",
+      "Namespace": "KirbyOneTKUserDemographics (Forms)",
+      "Values": {
+        "Information": "a38ee6fa-40c4-4290-85c1-73e797b80d34"
+      }
+    },
+    {
+      "Kind": "default.cds_cr271_kirbyonetkmileagerates_forms",
+      "Namespace": "KirbyOneTKMileageRates (Forms)",
+      "Values": {
+        "Information": "481d9f8e-8efb-4e1c-9b48-d59518d15ec4"
+      }
+    },
+    {
+      "Kind": "default.cds_cr271_kirbyonetkoasisdata_forms",
+      "Namespace": "KirbyOneTKOasisData (Forms)",
+      "Values": {
+        "Information": "c4799e96-b128-4f74-8b16-ce60aabf0fff"
+      }
+    },
+    {
+      "Kind": "default.cds_crdc3_kirbyonetkpayperiod_forms",
+      "Namespace": "KirbyOneTKPayPeriods (Forms)",
+      "Values": {
+        "Information": "1648078a-8e45-44c4-a842-8388d25c54a5"
+      }
+    },
+    {
+      "Kind": "default.cds_cr271_kirbyonetkuserentries_forms",
+      "Namespace": "KirbyOneTKUserEntries (Forms)",
+      "Values": {
+        "Information": "c7cf26ac-4410-44c5-963d-978f14d91101"
+      }
+    }
+  ]
+}

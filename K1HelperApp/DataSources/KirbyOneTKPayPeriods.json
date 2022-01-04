@@ -1,0 +1,123 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crdc3_kirbyonetkpayperiods",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crdc3_kirbyonetkpayperiod",
+    "MaxGetRowsCount": 2000,
+    "Name": "KirbyOneTKPayPeriods",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crdc3_enddate": "EndDate",
+      "crdc3_kirbyonetkpayperiod_AsyncOperations": "System Jobs",
+      "crdc3_kirbyonetkpayperiod_BulkDeleteFailures": "Bulk Delete Failures",
+      "crdc3_kirbyonetkpayperiod_DuplicateBaseRecord": "Duplicate Records (crdc3_kirbyonetkpayperiod_DuplicateBaseRecord)",
+      "crdc3_kirbyonetkpayperiod_DuplicateMatchingRecord": "Duplicate Records (crdc3_kirbyonetkpayperiod_DuplicateMatchingRecord)",
+      "crdc3_kirbyonetkpayperiod_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crdc3_kirbyonetkpayperiod_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crdc3_kirbyonetkpayperiod_ProcessSession": "Process Sessions",
+      "crdc3_kirbyonetkpayperiod_SyncErrors": "Sync Errors",
+      "crdc3_kirbyonetkpayperiodid": "KirbyOneTKPayPeriod",
+      "crdc3_name": "Name",
+      "crdc3_ppid": "PPId",
+      "crdc3_startdate": "StartDate",
+      "crdc3_statuschoice": "StatusChoice",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "KirbyOneTKPayPeriods",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "KirbyOneTKPayPeriods (Views)",
+    "Name": "_crdc3_kirbyonetkpayperiod_views",
+    "RelatedEntityName": "KirbyOneTKPayPeriods",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "43654916-5625-ec11-b6e5-0022481e7615": "Custom Columns",
+      "699fe248-2924-41ca-ba76-7d19aa9ffdc3": "KirbyOneTKPayPeriod Associated View",
+      "75d15803-d254-4331-a285-9d6f35e8e836": "KirbyOneTKPayPeriod Lookup View",
+      "92a49ef4-c719-4833-854a-d45915422ac3": "KirbyOneTKPayPeriod Advanced Find View",
+      "a4d60513-c291-4025-ab1e-5ec489e9f2f7": "Inactive KirbyOneTKPayPeriods",
+      "cd007383-9557-4ac0-ab46-bc184760f165": "Active KirbyOneTKPayPeriods"
+    }
+  },
+  {
+    "DisplayName": "Status (KirbyOneTKPayPeriods)",
+    "Name": "crdc3_kirbyonetkpayperiod_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "KirbyOneTKPayPeriods"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "KirbyOneTKPayPeriods",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (KirbyOneTKPayPeriods)",
+    "Name": "crdc3_kirbyonetkpayperiod_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "KirbyOneTKPayPeriods"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "KirbyOneTKPayPeriods",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "KirbyOneTKPayPeriodStatusChoice",
+    "Name": "crdc3_payperiodstatuschoice",
+    "OptionSetInfoNameMapping": {
+      "445210000": "Active",
+      "445210001": "Pending",
+      "445210002": "Closed"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crdc3_statuschoice",
+        "OptionSetReferenceEntityName": "KirbyOneTKPayPeriods"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crdc3_statuschoice",
+    "RelatedEntityName": "KirbyOneTKPayPeriods",
+    "Type": "OptionSetInfo"
+  }
+]

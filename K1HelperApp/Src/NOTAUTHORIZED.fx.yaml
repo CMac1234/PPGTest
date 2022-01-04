@@ -1,0 +1,13 @@
+NOTAUTHORIZED As screen:
+
+    lblNopeNopeNope As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 0, 1)
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =768
+        Italic: =true
+        Size: =75
+        Text: ="You are not authorized to use this application."
+        Width: =1366
+        ZIndex: =1
+

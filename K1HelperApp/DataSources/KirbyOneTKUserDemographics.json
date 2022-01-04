@@ -1,0 +1,110 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr271_kirbyonetkuserdemographicses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr271_kirbyonetkuserdemographics",
+    "MaxGetRowsCount": 2000,
+    "Name": "KirbyOneTKUserDemographics",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr271_emp_display_name": "EmpDisplayName",
+      "cr271_emp_home_city": "EmpHomeCity",
+      "cr271_emp_home_state": "EmpHomeState",
+      "cr271_emp_hub": "EmpHub",
+      "cr271_emp_primary_email": "EmpPrimaryEmail",
+      "cr271_emp_secondary_email": "EmpSecondaryEmail",
+      "cr271_emp_work_city": "EmpWorkCity",
+      "cr271_emp_work_state": "EmpWorkState",
+      "cr271_employee_clock_no": "EmpNo",
+      "cr271_KirbyOneTKDataToDemo": "KirbyOneTKUserEntries",
+      "cr271_kirbyonetkuserdemographics_AsyncOperations": "System Jobs",
+      "cr271_kirbyonetkuserdemographics_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr271_kirbyonetkuserdemographics_DuplicateBaseRecord": "Duplicate Records (cr271_kirbyonetkuserdemographics_DuplicateBaseRecord)",
+      "cr271_kirbyonetkuserdemographics_DuplicateMatchingRecord": "Duplicate Records (cr271_kirbyonetkuserdemographics_DuplicateMatchingRecord)",
+      "cr271_kirbyonetkuserdemographics_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr271_kirbyonetkuserdemographics_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr271_kirbyonetkuserdemographics_ProcessSession": "Process Sessions",
+      "cr271_kirbyonetkuserdemographics_SyncErrors": "Sync Errors",
+      "cr271_kirbyonetkuserdemographicsid": "KirbyOneTKUserDemographic",
+      "cr271_manager_email": "ManagerEmail",
+      "cr271_name": "Name",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "KirbyOneTKUserDemographics",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "KirbyOneTKUserDemographics (Views)",
+    "Name": "_cr271_kirbyonetkuserdemographics_views",
+    "RelatedEntityName": "KirbyOneTKUserDemographics",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0b9f595d-8e27-ec11-b6e5-0022481e7615": "QDP",
+      "0e70c250-cf36-ec11-b6e6-000d3a150883": "KMR-K1TK_Demographics",
+      "1c69e473-5c8e-4343-a61e-038070381ef2": "KirbyOneTKUserDemographic Advanced Find View",
+      "490a630d-f438-4484-83a6-251dab60986f": "Active KirbyOneTKUserDemographics",
+      "6ebd0d8d-9c0a-41af-94f0-4f14ffbbf981": "KirbyOneTKUserDemographic Associated View",
+      "a6e433be-d059-407a-bb04-7c9c7a12f3ee": "KirbyOneTKUserDemographic Lookup View",
+      "ec13056a-4b58-45dd-bc46-ff9900be9358": "Inactive KirbyOneTKUserDemographics"
+    }
+  },
+  {
+    "DisplayName": "Status (KirbyOneTKUserDemographics)",
+    "Name": "cr271_kirbyonetkuserdemographics_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "KirbyOneTKUserDemographics"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "KirbyOneTKUserDemographics",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (KirbyOneTKUserDemographics)",
+    "Name": "cr271_kirbyonetkuserdemographics_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "KirbyOneTKUserDemographics"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "KirbyOneTKUserDemographics",
+    "Type": "OptionSetInfo"
+  }
+]

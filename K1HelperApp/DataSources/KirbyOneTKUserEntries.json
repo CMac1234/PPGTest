@@ -1,0 +1,151 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr271_kirbyonetkuserentrieses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr271_kirbyonetkuserentries",
+    "MaxGetRowsCount": 2000,
+    "Name": "KirbyOneTKUserEntries",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr271_date": "Date",
+      "cr271_end_time": "EndTime",
+      "cr271_kirbyonetkuserentries_AsyncOperations": "System Jobs",
+      "cr271_kirbyonetkuserentries_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr271_kirbyonetkuserentries_DuplicateBaseRecord": "Duplicate Records (cr271_kirbyonetkuserentries_DuplicateBaseRecord)",
+      "cr271_kirbyonetkuserentries_DuplicateMatchingRecord": "Duplicate Records (cr271_kirbyonetkuserentries_DuplicateMatchingRecord)",
+      "cr271_kirbyonetkuserentries_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr271_kirbyonetkuserentries_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr271_kirbyonetkuserentries_ProcessSession": "Process Sessions",
+      "cr271_kirbyonetkuserentries_SyncErrors": "Sync Errors",
+      "cr271_kirbyonetkuserentriesid": "KirbyOneTKUserEntries",
+      "cr271_name": "Name",
+      "cr271_start_time": "StartTime",
+      "cr271_user_demographic": "KirbyOneTKDataToDemo",
+      "crd7a_comments": "Comments",
+      "crd7a_open": "Open",
+      "crd7a_payperiodstart": "Pay Period Start",
+      "crd7a_rmilemiles": "RMILEMiles",
+      "crd7a_timecode": "Time Code",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "KirbyOneTKUserEntries",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "KirbyOneTKUserEntries (Views)",
+    "Name": "_cr271_kirbyonetkuserentries_views",
+    "RelatedEntityName": "KirbyOneTKUserEntries",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0fb1db68-ca09-44e0-aa59-5915cde45b0d": "Active KirbyOneTKUserEntries",
+      "1aad4e1e-4845-4820-a161-d44f92cf7abe": "Inactive KirbyOneTKUserEntries",
+      "540b2ff1-e630-ec11-b6e5-000d3a9d0025": "QDP",
+      "c443c72e-6474-44f3-84e4-a24f4edf1629": "KirbyOneTKUserEntries Advanced Find View",
+      "c8d4767b-9b35-40cc-b6a4-3a606ddd3467": "KirbyOneTKUserEntries Associated View",
+      "caabb5fa-5bc4-4f7a-a026-21d1f3020154": "KirbyOneTKUserEntries Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (KirbyOneTKUserEntries)",
+    "Name": "cr271_kirbyonetkuserentries_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "KirbyOneTKUserEntries"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "KirbyOneTKUserEntries",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (KirbyOneTKUserEntries)",
+    "Name": "cr271_kirbyonetkuserentries_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "KirbyOneTKUserEntries"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "KirbyOneTKUserEntries",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Open (KirbyOneTKUserEntries)",
+    "Name": "crd7a_cr271_kirbyonetkuserentries_open",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd7a_open",
+        "OptionSetReferenceEntityName": "KirbyOneTKUserEntries"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crd7a_open",
+    "RelatedEntityName": "KirbyOneTKUserEntries",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "KirbyOneTKTimeCode",
+    "Name": "crd7a_kirbyonetktimecode",
+    "OptionSetInfoNameMapping": {
+      "243970000": "DRIVE",
+      "243970002": "HOLD",
+      "243970003": "GUARA",
+      "243970004": "TRTKM",
+      "243970005": "TRNH",
+      "243970006": "RMILE"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd7a_timecode",
+        "OptionSetReferenceEntityName": "KirbyOneTKUserEntries"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crd7a_timecode",
+    "RelatedEntityName": "KirbyOneTKUserEntries",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr271_kirbyonetkmileagecalcses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr271_kirbyonetkmileagecalcs",
+    "MaxGetRowsCount": 2000,
+    "Name": "KirbyOneTKMileageCalcs",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr271_end_city": "EndCity",
+      "cr271_end_state": "EndState",
+      "cr271_kirbyonetkmileagecalcs_AsyncOperations": "System Jobs",
+      "cr271_kirbyonetkmileagecalcs_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr271_kirbyonetkmileagecalcs_DuplicateBaseRecord": "Duplicate Records (cr271_kirbyonetkmileagecalcs_DuplicateBaseRecord)",
+      "cr271_kirbyonetkmileagecalcs_DuplicateMatchingRecord": "Duplicate Records (cr271_kirbyonetkmileagecalcs_DuplicateMatchingRecord)",
+      "cr271_kirbyonetkmileagecalcs_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr271_kirbyonetkmileagecalcs_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr271_kirbyonetkmileagecalcs_ProcessSession": "Process Sessions",
+      "cr271_kirbyonetkmileagecalcs_SyncErrors": "Sync Errors",
+      "cr271_kirbyonetkmileagecalcsid": "KirbyOneTKMileageCalcs",
+      "cr271_name": "Name",
+      "cr271_start_city": "StartCity",
+      "cr271_start_state": "StartState",
+      "crdc3_distance": "Distance",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "KirbyOneTKMileageCalcs",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "KirbyOneTKMileageCalcs (Views)",
+    "Name": "_cr271_kirbyonetkmileagecalcs_views",
+    "RelatedEntityName": "KirbyOneTKMileageCalcs",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0846ba37-7294-4345-9cb9-1a7c84f5951e": "KirbyOneTKMileageCalcs Advanced Find View",
+      "61c95182-7d20-ec11-b6e6-000d3a9c93f0": "All Custom Columns",
+      "67908cd8-1352-4af7-af9c-f44e560f3449": "Active KirbyOneTKMileageCalcs",
+      "6845bcdb-d8c2-403b-9976-416a2731c8cc": "KirbyOneTKMileageCalcs Lookup View",
+      "8d66649a-f75b-4690-a213-d524f7abf605": "KirbyOneTKMileageCalcs Associated View",
+      "ce518b59-96bd-484d-90c1-621784a82045": "Inactive KirbyOneTKMileageCalcs"
+    }
+  },
+  {
+    "DisplayName": "Status (KirbyOneTKMileageCalcs)",
+    "Name": "cr271_kirbyonetkmileagecalcs_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "KirbyOneTKMileageCalcs"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "KirbyOneTKMileageCalcs",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (KirbyOneTKMileageCalcs)",
+    "Name": "cr271_kirbyonetkmileagecalcs_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "KirbyOneTKMileageCalcs"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "KirbyOneTKMileageCalcs",
+    "Type": "OptionSetInfo"
+  }
+]
